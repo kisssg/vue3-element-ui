@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="25" height="25" />
 
     <div class="wrapper">
       <nav>
@@ -14,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/date">Date picker</RouterLink>
         <RouterLink to="/gallery">Gallery</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/buttons">Buttons</RouterLink>
       </nav>
     </div>
   </header>
